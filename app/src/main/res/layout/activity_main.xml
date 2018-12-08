@@ -28,7 +28,7 @@
         app:srcCompat="@mipmap/androidlogo" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textHiScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView3"
@@ -39,8 +39,10 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView2"
+        android:layout_alignStart="@+id/textHiScore"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
         android:layout_marginBottom="44dp"
         android:text="Play" />
 
